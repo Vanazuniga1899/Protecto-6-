@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Clinica veterinaria</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Fuentes web de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Hoja de estilo de fuente de icono -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Hoja de estilo de bibliotecas -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Hoja de estilo Bootstrap personalizada -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Hoja de estilo de plantilla -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio giratorio -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Extremo giratorio -->
+
+
+    <!-- Inicio de la barra superior -->
+    <div class="container-fluid py-2 d-none d-lg-flex">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>Dirección: Cl. 19 #26-25, Sincelejo, Sucre</small>
+                    <small class="me-3"><i class="fa fa-clock me-2"></i>Horario: Abierto las 24 horas </small>
+                    </div>
+                <nav class="breadcrumb mb-0">
+                    <a class="breadcrumb-item small text-body" href="#">Apoyo</a>
+                    <a class="breadcrumb-item small text-body" href="#">Terminos</a>
+                    <a class="breadcrumb-item small text-body" href="#">Preguntas frecuentes</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de la barra superior -->
+
+
+    <!-- Inicio de marca -->
+    <div class="container-fluid bg-success text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex">
+                    <i class="bi bi-telephone-inbound fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Llama ahora</h5>
+                        <span class="text-warning">+(57)320 5685913</span>
+                    </div>
+                </div>
+                <a href="index.html" class="h1 text-white mb-0">Centro Veterinario<span class="text-warning"> Mundo Animal</span></a>
+                <div class="d-flex">
+                    <i class="bi bi-envelope fs-2"></i>
+                    <div class="ms-3">
+                        <h5 class="text-white mb-0">Enviar correo ahora </h5>
+                        <span class="text-warning">centroveterinariomundoanimal@hotmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de marca -->
+
+
+    <!-- Inicio de la barra de navegación -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-dark m-0">Centro Veterinario<span class="text-success">Mundo Animal</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link active text-success">Inicio</a>
+                        <a href="index.html" class="nav-item nav-link text-success">Instalaciones</a>
+                        <a href="#" class="nav-item nav-link text-success">Servicios</a>
+                    </div>
+                        <a href="#" class="nav-item nav-link text-success">Contacto</a>
+                    </div>
+                    <a href="login.html" class="btn btn-success rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Iniciar sesión</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Fin de la barra de navegación -->
+
+
+    <!-- Inicio del carrusel -->
+    <div class="container-fluid header-carousel px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/1.avif" alt="imagen-cuidado de cachorro">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <h1 class="display-1 text-white animated slideInRight mb-3">CUIDADO DE LOS ANIMALES</h1>
+                                    <h2 class="mb-5 animated slideInRight">Cuidar de los animales es una hermosa responsabilidad que llena nuestras vidas de amor y alegría. Para asegurar su bienestar, debemos satisfacer todas sus necesidades físicas, emocionales y sociales.</h2>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explora más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/foto1.png" alt="Imagen-cuidado de animales">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-7 text-end">
+                                    <h1 class="display-1 text-white animated slideInLeft mb-3">MÉDICOS Y ASISTENTES VETERINARIOS</h1>
+                                    <h2 class="mb-5 animated slideInLeft text-light ">Todos los animales merecen atención,a los cuidados y a la protección del hombre.¡Cuidalos,ellos dependen de ti!</h2>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Explora más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Fin del carrusel -->
+
+
+    <!-- Acerca del inicio -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/v1.jpg">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/foto4.png">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/foto5.png">
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-success w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center">
+                                <div class=""><img src="img/ico1.png" alt="" width="50px">
+                                </div>
+                                <h1 class="display-1 text-white mb-0" data-toggle="counter-up">250</h1>
+                                <h2 class="fs-5 text-white">N° mascotas Actuales</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-4 text-success">EXPERTOS EN EL CUIDADO DE LOS ANIMALES</h1>
+                    <p class="mb-4">
+                        El cuidado de los animales es una disciplina vital que tiene un impacto significativo en múltiples aspectos de la vida y la sociedad. Los expertos en el cuidado de los animales, como veterinarios, biólogos, y otros profesionales en bienestar animal, juegan un papel crucial en garantizar la salud y el bienestar de los animales.</p>
+                    <div class="row g-4 g-sm-5 justify-content-center">
+                        <div class="col-sm-6">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
+                                <p class="text-white mb-0">Cuidado de mascotas</p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">100</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-start">
+                            <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
+                                <p class="text-danger mb-0">¡Perdida de mascotas!</p>
+                                <h1 class="text-danger mb-0" data-toggle="counter-up">5</h1>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-success mx-sm-auto">
+                                <p class="text-white mb-0">Clientes Felices<p>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">317</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Acerca del final -->
+
+    <!-- Funciones Inicio -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-0 feature-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item h-100 p-5 my-5">
+                        <div class=" mb-4">
+                            <img src="img/doctores.avif" alt="doctores" width="260px">
+                        </div>
+                        <h4 class="mb-3 text-success">Doctores expertos</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item h-100 p-5 my-5">
+                        <div class=" mb-4">
+                            <img src="img/entrega1.png" alt="entrega-gratis" width="260px">
+                        </div>
+                        <h4 class="mb-3 text-success">Entrega Gratis</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item h-100 p-5 my-5">
+                        <div class=" mb-4">
+                            <img src="img/pago22.png" alt="forma de pago" width="240px">
+                        </div>
+                        <h4 class="mb-3 text-success">Forma de pagos</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="feature-item h-100 p-5 my-5">
+                        <div class="mb-4">
+                            <img src="img/reloj1.avif" alt="hora-24"width="180px">
+                        </div>
+                        <h4 class="mb-3 text-success">7 días a la semana</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de características -->
+
+
+    <!-- Funciones Inicio -->
+    <div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6 pt-lg-5">
+                    <div class="bg-white p-5 mt-lg-5">
+                        <h1 class="display-6 mb-4 wow fadeIn text-success" data-wow-delay="0.3s">La mejor solución de laboratorio y pruebas médicas</h1>
+                        <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">En este artículo, abordaremos la importancia de las pruebas de laboratorio en mascotas y cómo estas pruebas desempeñan un papel crucial en el cuidado de la salud y bienestar de nuestros queridos compañeros peludos. Las pruebas de laboratorio son una herramienta esencial para detectar enfermedades, monitorear la salud y asegurar una vida prolongada y feliz para nuestras mascotas. En VetDoctor, comprendemos la relevancia de estas pruebas y estamos comprometidos a proporcionar la más alta calidad de atención y servicios médicos para los animales que tanto amamos.</p>
+                        <div class="row g-5 pt-2 mb-5">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="">
+                                    <img src="img/1.1.jpg" alt="doctores" width="250px">
+                                </div>
+                                <h5 class="mb-3 text-success my-3">Doctores con experiencia</h5>
+                                <span>¡¡El cliente es muy importante!!  gracias a el descubriremos que tiene tu mascota.</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="">
+                                    <img src="img/2.avif" alt=""width="250px">
+                                </div>
+                                <h5 class="mb-3 text-success my-4">Microscopía avanzada</h5>
+                                <span>¡¡El cliente es muy importante!!  tenemos nuevos avances para mejorar la salud de tu mascota.
+                            </div>
+                        </div>
+                        <a class="btn btn-success py-3 px-5 wow fadeIn text-light" data-wow-delay="0.5s" href="">Explora más</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center justify-content-center" style="min-height: 300px;">
+                                <button type="button" class="btn-play" data-bs-toggle="modal"
+                                    data-src="https://youtu.be/IC1egkXC6I8?si=1AuNFLpcm1-NfRGZ" data-bs-target="#aprendizaje #preescolar #educativo">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="bg-primary p-5">
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h5 class="text-light text-light">Preparación de la muestra</h5>
+                                        <h4 class="text-light text-light">90%</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-4 wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h5 class="text-light text-light">Precisión del resultado</h5>
+                                        <h4 class="text-light text-light">95%</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="experience mb-0 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h5 class="text-light text-light">Equipos de laboratorio</h5>
+                                        <h4 class="text-light text-light">90%</h4>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de características -->
+
+
+    <!-- Fin de características -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Relación de aspecto 16:9 -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin modal de vídeo -->
+
+
+    <!-- Inicio del servicio -->
+    <div class="container-fluid container-service py-5 bg-success">
+        <div class="container pt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3 text-light">Servicio de laboratorio confiable y de alta calidad</h1>
+                <p class="mb-5 text-light">Las pruebas de laboratorio son esenciales para prevenir, diagnosticar y tratar numerosas enfermedades que le llegan a tu mascota. Al proporcionar una visión clara de lo que está sucediendo en el cuerpo del cada animal, estas pruebas permiten a los médicos tomar decisiones informadas sobre el mejor curso de acción para cada paciente.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item -warning">
+                        <div class=" mb-4 text-center">
+                            <img src="img/logop.png" alt="forma de pago" width="150px">
+                        </div>
+                        <h5 class="mb-3 text-success">Modelos de animales</h4>
+                            <div class=" mb-4">
+                                <img src="img/perro.png" alt="forma de pago" width="240px">
+                            </div>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class=" mb-4 text-center">
+                            <img src="img/logop.png" alt="forma de pago" width="150px">
+                        </div>
+                        <h5 class="mb-3 text-success">Modelos de animales</h4>
+                            <div class=" mb-4">
+                                <img src="img/perrito.jpg" alt="forma de pago" width="240px">
+                            </div>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class=" mb-4 text-center">
+                            <img src="img/logop.png" alt="forma de pago" width="150px">
+                        </div>
+                        <h5 class="mb-3 text-success">Modelos de animales</h4>
+                            <div class=" mb-4">
+                                <img src="img/gato.png" alt="forma de pago" width="240px">
+                            </div>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class=" mb-4 text-center">
+                            <img src="img/logop.png" alt="forma de pago" width="150px">
+                        </div>
+                        <h5 class="mb-3 text-success">Modelos de animales</h4>
+                            <div class=" mb-4">
+                                <img src="img/perri.jpg" alt="forma de pago" width="240px">
+                            </div>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-capsule text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Pruebas de orina</h4>
+                            <p class="mb-4">El análisis de orina para detectar posibles enfermedades y para realizar un diagnóstico correcto.  Se utiliza para detectar y controlar una amplia variedad de trastornos, como infecciones de las vías urinarias, enfermedad. Un análisis de orina implica examinar el aspecto, la concentración y el contenido de la orina.</p>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-prescription2 text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Análisis de sangre</h4>
+                            <p class="mb-4">A través de las analíticas, podemos evidenciar parásitos, diabetes, alergias e innumerables enfermedades hepáticas o renales. De esta manera, los doctores veterinarios pueden controlar el avance de algunas enfermedades, así como detectar precozmente otras, reduciendo su impacto.</p>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-clipboard2-pulse text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Pruebas de fiebre</h4>
+                            <p class="mb-4">Son causadas debido a que algo está atacando al sistema inmunitario del animal. Por lo tanto, no se trata de una enfermedad aislada, sino de un síntoma,¡para prevenirlo consulte con su veterinario cercano!</p>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-file-medical text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Pruebas de alergia</h4>
+                            <p class="mb-4">Las pruebas de alergia son necesarias para identificar los alergenos a los que es sensible el animal con el objetivo de realizar una inmunoterapia alergeno específica (ASIT o tratamiento de hiposensibilización).</p>
+                        <a class="btn btn-light px-3 bg-success text-light" href="">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del servicio -->
+
+
+    <!-- Inicio de cita -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-4 text-success">¡NOS ASEGURAMOS DE QUE EL CLIENTE SIEMPRE SE SIENTA SATISFECHO!</h1>
+                    <p>En nuestra consulta, la medicina veterinaria y nuestra pasión por los animales van de la mano. Atendemos a tu mascotas con toda profesionalidad. No se preocupe, todos ellos están en buenas manos. Visite nuestras instalaciones y pregunte por nuestras promociones mensuales.</p>
+                    <p class="mb-4">Nuestra excelente formación y amplia experiencia nos permiten ofrecer el mejor tratamiento a tus mascotas.﻿ Desde el asesoramiento hasta el tratamiento, el equipo de nuestra clínica tiene siempre presente la salud de tu mascota.</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
+                        <div class="">
+                            <i class="bi bi-geo-alt text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3 text-danger">
+                            <h5 class="text-success">Dirección: </h5>
+                            <span>Cl. 19 #26-25, Sincelejo, Sucre</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
+                        <div class="">
+                            <i class="bi bi-clock text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3 text-danger">
+                            <h5 class="text-success">Horario:  </h5>
+                            <span>Abierto las 24 horas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="mb-4 text-success">Cita en línea</h2>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Digite su nombre</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Digite su correo electronico</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">porfavor,digite se numero de célular</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="service">
+                                    <option selected>Pruebas de orina</option>
+                                    <option value="">Análisis de sangre</option>
+                                    <option value="">Pruebas de fiebre</option>
+                                    <option value="">Pruebas de alergia</option>
+                                </select>
+                                <label for="service">Elija un servicio</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px"></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3 bg-success" type="submit">Aplique ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Inicio de cita -->
+
+
+    <!-- Inicio del equipo -->
+    <div class="container-fluid container-team py-5">
+        <div class="container pb-5">
+            <div class="row g-5 align-items-center mb-5">
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid w-100" src="img/punto.png" alt="">
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-3">lOCAL</h1>
+                    <p class="mb-1">CEO & Founder</p>
+                    <p class="mb-5">Sincelejo-Sucre,COLOMBIA</p>
+                    <h3 class="mb-3">Que se busca?</h3>
+                    <p class="mb-4">1. Brindar atención médica y cuidado de calidad a los animales. </p>
+                        <p class="mb-4">2. Prevenir y controlar enfermedades.</p>
+                            <p class="mb-4"> 3. Educación y asesoramiento a los propietarios de mascotas.</p>
+                                <p class="mb-4"> 4. Fomentar el bienestar animal.</p>
+                                <p class="mb-4">5. Mantener una gestión eficiente y rentable.</p>
+                    <p class="mb-4"> los objetivos principales de nuestra clínicas veterinaria se centran en proporcionar atención médica y cuidado de calidad a los animales, prevenir y controlar enfermedades.
+                    <div class="d-flex">
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/doc.png" alt="doctores" >
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Luisa & Carlos</h5>
+                            <span>(Doctores)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/doc1.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Personal</h5>
+                            <span>(enfermeros)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/pp1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Dia de relajación</h5>
+                            <span>(tu mascota lo necesita)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/pp3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-1">Promoción</h5>
+                            <span>(tu mascota se lo merece)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del equipo -->
+
+    <!-- Inicio del testimonio -->
+    <div class="container-fluid testimonial py-5">
+        <div class="container pt-5">
+            <div class="row gy-5 gx-0">
+                <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                    <h1 class="display-6 text-white mb-4">¡Qué dicen los clientes sobre nuestros servicios de laboratorio!</h1>
+                    <p class="text-white mb-5">Es muy importante saber la opinion de nuestros clientes.</p>
+                    <a href="" class="btn btn-primary py-3 px-5">Más Testimonios</a>
+                </div>
+                <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white p-5">
+                        <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                            <div class="testimonial-item">
+                                <div class="icon-box-primary mb-4">
+                                    <i class="bi bi-chat-left-quote text-dark"></i>
+                                </div>
+                                <p class="fs-5 mb-4 text-success">¡Tratamos de brindar el mejor servicio posible!</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0" src="img/tes1.jpg" alt="">
+                                    <div class="ps-3">
+                                        <h5 class="mb-1">Caso de Brunno</h5>
+                                        <span class="text-dark">(Desnutrición) causados por la mala alimentacion sin embargo se pudo recuperar</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="icon-box-primary mb-4">
+                                    <i class="bi bi-chat-left-quote text-dark"></i>
+                                </div>
+                                <p class="fs-5 mb-4  text-success">¡Tratamos de brindar el mejor servicio posible!</p>
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0" src="img/testimonio2.jpg" alt="">
+                                    <div class="ps-3">
+                                        <h5 class="mb-1">Caso de Lulu</h5>
+                                        <span class="text-dark">(Recuperación)debido a un accidente de transito</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del testimonio -->
+
+
+    <!-- Inicio de pie de página -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand"> 
+                        <h1 class="h1 text-white mb-0"> Centro Veterinario <span class="text-warning"> Mundo Animal </span></h1>
+                    </a>
+                    <p class="fs-5 mb-4">Todos los animales merecen atención,a los cuidados y a la protección del hombre.¡Cuidalos,ellos dependen de ti!</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>Dirección: Cl. 19 #26-25, Sincelejo, Sucre</p>
+                    <p><i class="fa fa-phone-alt me-2"></i>+(57)320 5685913</p>
+                    <p><i class="fa fa-envelope me-2"></i>centroveterinariomundoanimal@hotmail.com</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Enlaces rápidos
+                            </h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestro Servicio</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Apoyo</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Enlaces populares</h4>
+                            <a class="btn btn-link" href="">Sobre Nosotros</a>
+                            <a class="btn btn-link" href="">Contáctenos</a>
+                            <a class="btn btn-link" href="">Nuestro Servicio</a>
+                            <a class="btn btn-link" href="">Términos y Condiciones</a>
+                            <a class="btn btn-link" href="">Apoyo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de pie de página -->
+
+
+    <!-- Copyright Inicio -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; <a href="#">Valentina Zuñiga Borja</a>.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                <p>"El cuidado de nuestras mascotas es muy importante"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del copyright -->
+
+
+    <!-- Volver al inicio -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- Bibliotecas JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Plantilla Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
